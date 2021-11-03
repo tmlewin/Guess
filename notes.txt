@@ -1,0 +1,29 @@
+Structures of a DOM structure
+
+The Elements and Nodes of a DOM structure
+ Elements - children elements of a DOM structure
+
+ Nodes - children nodes of a DOM structure
+ Child Nodes - children nodes of a DOM structure
+
+ FirstChild - first child of a DOM structure
+ lastchild - last child of a DOM structure
+ innerHtml - inner HTML of a DOM structure
+ innerText - inner text of a DOM
+
+ document.body
+<body class=​"text-center">​…​</body>​
+console.log(document.body.children);
+VM529:1 HTMLCollection(2) [nav.navbar.navbar-dark.bg-dark, main]0: nav.navbar.navbar-dark.bg-dark1: mainlength: 2__proto__: HTMLCollection
+undefined
+console.log(document.body.children[1]);
+VM599:1 <main>​…​</main>​
+undefined
+console.log(document.body.children[0]);
+
+
+Searching the domain
+document.getQuerySelectorAll('.form-group') - This shows the css class structure of the dom. so it searches all elements in a particularcss class  form-group is a css class for the input element
+
+document.getElementsClassName('button') - the class name is the class for example btn
+
